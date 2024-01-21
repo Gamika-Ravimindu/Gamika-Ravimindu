@@ -1,0 +1,333 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+ol,
+ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* -----------------Reset CSS end---------------- */
+.section1 {
+  height: 800px;
+  background-image: url(../images/img9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+}
+
+.section2 {
+  height: 800px;
+  background-image: url(../images/img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.section3 {
+  height: 800px;
+  background-image: url(../images/img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.section4 {
+  height: 800px;
+  background-image: url(../images/img6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+}
+
+.section5 {
+  height: 800px;
+  background-image: url(../images/img7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+}
+
+
+.section6 {
+  height: 800px;
+  background-image: url(../images/img12.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+}
+
+/*font-family: 'brandon-grotesque', 'brandon', martel-sans, sans-serif;*/
+.textbox1 {
+  background-color: transparent;
+  text-align: center;
+  padding-top: 200px;
+  align-items: center;
+  align-content: center;
+  z-index: 1000;
+}
+
+.text1 {
+  font-size: 65px;
+  font-family: bebas neue, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.text2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: 'Work Sans';
+}
+
+.readMore {
+  color: white;
+  background-color: #556677;
+  font-size: medium;
+  font-weight: 600;
+  height: 45px;
+  width: 130px;
+}
+
+.textbox2 {
+  background-color: #FFFFFF;
+  height: 235px;
+  width: 530px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  position: relative;
+  top: 12%;
+  left: 57%;
+  right: 100px;
+  box-shadow: 8px 8px 10px #000000;
+  z-index: 1000;
+}
+
+.paragraph1 {
+  padding: 50px 20px 20px 30px;
+  max-width: 510px;
+  color: #555555;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: "archivo narrow", helvetica, sans-serif;
+
+}
+
+.textbox3 {
+  background-color: #FFFFFF;
+  height: 260px;
+  width: 280px;
+  border-radius: 20px;
+  padding: 20px 40px;
+  position: relative;
+  top: 12%;
+  left: 57%;
+  right: 100px;
+  box-shadow: 8px 8px 10px #000000;
+  color: #626266;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1000;
+
+}
+
+
+
+.subHeadingInTextbox3 {
+  font-size: larger;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.proLangList {
+  list-style: disc;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.myProjects {
+  color: #000000;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.textbox4 {
+  background-color: #FFFFFF;
+  height: 230px;
+  width: 500px;
+  border-radius: 20px;
+  padding: 85px 25px 25px;
+  position: relative;
+  top: 12%;
+  left: 57%;
+  right: 100px;
+  box-shadow: 8px 8px 10px #000000;
+  z-index: 1000;
+
+}
+
+.paragraph2 {
+  padding: 0px 20px 20px 20px;
+  max-width: 460px;
+  color: #555555;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: "archivo narrow", helvetica, sans-serif;
+}
+
+.textbox5 {
+  background-color: #FFFFFF;
+  height: 210px;
+  width: 500px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  position: relative;
+  top: 12%;
+  left: 57%;
+  right: 100px;
+  box-shadow: 8px 8px 10px #000000;
+  z-index: 1000;
+}
+
+.paragraph3 {
+  padding: 45px 20px 20px 30px;
+  max-width: 460px;
+  color: #555555;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: "archivo narrow", helvetica, sans-serif;
+
+}
+
+.textbox6 {
+  background-color: #FFFFFF;
+  height: 260px;
+  width: 530px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  position: relative;
+  top: 12%;
+  left: 57%;
+  right: 100px;
+  box-shadow: 8px 8px 10px #000000;
+  z-index: 1000;
+}
+
+.Strong {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.Strong0 {
+  font-weight: 700;
+
+}
+
+.footerPart1 {
+  background-color: #323A45;
+  height: 320px;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.Titles{
+  height: 50px;
+  width: 250px;
+  font-size: x-large;
+  font-weight: 700;
+  border-bottom: solid #EEEEEE 1px;
+
+}
+
+.Items{
+line-height: 32px;
+font-weight: 600 ;
+}
+
+.card{
+  background-color: transparent;
+  padding:40px 0px 20px 210px ;
+  color: #B7BDC1;
+}
+
+.footerPart2 {
+  text-align: center;
+  background-color: #292F38;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.mailImage {
+  margin-right: 10px;
+}
+
+.lastText{
+  color: #B7BDC1;
+  margin-bottom: 10px; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lastRow{
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-items: center;
+
+}
+
+.greenIncolor{
+  color: #37F215;
+}
