@@ -38,6 +38,10 @@ textarea {
 }
 
 /* -----------------Reset CSS end---------------- */
+html{
+  scroll-behavior: smooth;
+}
+
 .section1 {
   height: 800px;
   background-image: url(../images/img9.jpg);
@@ -131,9 +135,16 @@ textarea {
   color: white;
   background-color: #556677;
   font-size: medium;
+  display: inline-block;
   font-weight: 600;
   height: 45px;
   width: 130px;
+  text-align:center;
+  padding-top: 14px;
+}
+
+.readMore:hover{
+  cursor: pointer;
 }
 
 .textbox2 {
@@ -302,6 +313,12 @@ font-weight: 600 ;
   color: #B7BDC1;
 }
 
+.card2{
+  background-color: transparent;
+  padding:40px 0px 20px 160px ;
+  color: #B7BDC1;
+}
+
 .footerPart2 {
 
   text-align: center;
@@ -334,4 +351,33 @@ font-weight: 600 ;
 
 .greenIncolor{
   color: #37F215;
+}
+
+aside {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+aside ul li .indicator {
+  cursor: pointer;
+  margin-top: 2rem;
+  display: block;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #1F1F1F;
+  border-color: #EEEEEE;
+  border-width: 1px;
+}
+/*aside ul li .active {
+  transform: scale(1.7);
+  transition: transform 200ms ease-in-out;
 }
