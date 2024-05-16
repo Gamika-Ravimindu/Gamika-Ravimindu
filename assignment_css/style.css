@@ -376,8 +376,32 @@ aside ul li .indicator {
   background-color: #1F1F1F;
   border-color: #EEEEEE;
   border-width: 1px;
+  position: relative;
+  display: inline-block;
+
 }
-/*aside ul li .active {
+
+aside ul li .indicator:hover{
+  background-color: #FFFFFF;
+  
+}
+
+aside ul li .active {
   transform: scale(1.7);
   transition: transform 200ms ease-in-out;
+}
+
+
+.indicator .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
